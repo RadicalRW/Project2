@@ -10,6 +10,7 @@
   
   // Video
   let video;
+  let label = 'waiting...';
   let flippedVideo;
   // To store the classification
   let label = "";
