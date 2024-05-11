@@ -43,20 +43,20 @@ p {
 /* intersectional justice
 ---------------------------*/
 .work {
-  background: #808080
+  background: #e1ff3e
 }
 
 .* Moses
 -------------------------*/
 .moses {
-  background: #8D99AE;
+  background: #ee82ee;
 }
 
 /* Header and Footer
 -------------------*/
 header, footer {
-  background: #2B2D42;
-  color: #8D99AE;
+  background: #e1ff3e;
+  color: #e1ff3e;
 }
 
 .profile-img {
@@ -69,7 +69,7 @@ header {
 }
 
 header h1, header h2 {
-  color: #EDF2F4;
+  color: #ffa500;
 
 .demo{
     color: orange;
