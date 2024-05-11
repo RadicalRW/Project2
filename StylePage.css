@@ -1,5 +1,12 @@
 /* Global Styles
 --------------------*/
+<style>
+.imgmain {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
 
 body {
     background: grey;
