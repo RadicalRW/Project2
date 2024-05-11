@@ -1,7 +1,4 @@
-Open up the code snippet below directly in the [p5.js Web Editor](https://editor.p5js.org/ml5/sketches/ImageModel_TM).
-
-```html
-<div>Teachable Machine Image Model - Hold an Orange, Banana, Fork or Cell Phone up to your Camera</div>
+<div>Teachable Machine Image Model - p5.js and ml5.js</div>
 <script src="https://cdn.jsdelivr.net/npm/p5@latest/lib/p5.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/p5@latest/lib/addons/p5.dom.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/ml5@latest/dist/ml5.min.js"></script>
@@ -9,13 +6,13 @@ Open up the code snippet below directly in the [p5.js Web Editor](https://editor
   // Classifier Variable
   let classifier;
   // Model URL
-  let imageModelURL = '{{URL}}';
+  let imageModelURL = 'https://teachablemachine.withgoogle.com/models/UysZ42x_K/';
   
   // Video
   let video;
   let flippedVideo;
   // To store the classification
-  let label = "";
+  let label = "Nothing";
 
   // Load the model first
   function preload() {
@@ -68,4 +65,3 @@ Open up the code snippet below directly in the [p5.js Web Editor](https://editor
     classifyVideo();
   }
 </script>
-```
