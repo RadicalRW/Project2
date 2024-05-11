@@ -15,7 +15,7 @@ Open up the code snippet below directly in the [p5.js Web Editor](https://editor
   let video;
   let flippedVideo;
   // To store the classification
-  let label = "...";
+  let label = "";
 
   // Load the model first
   function preload() {
